@@ -1,5 +1,5 @@
 
-# Login and Signup system using mern stack
+# Login and Signup System using MERN stack
 
 # Live Demo:- 
 
@@ -34,14 +34,13 @@ This project is a fully functional Login and Signup System built using the MERN 
 - MongoDB
 
 # Screenshots
-
 - Signup page
-<img src="src/assets/Signup.jpg" alt="Description" />
+  <img src="https://github.com/irshad1601/Signup-Login-System/blob/main/Frontend/src/assets/Signup.JPG" alt="Signup page" />
 
+  ##
+- Login page <br />
+![Login page](https://github.com/irshad1601/Signup-Login-System/blob/main/Frontend/src/assets/Login.JPG)
 
-- Login page
-- <img src="src/assets/Login.jpg" alt="Description" />
-
-- Home page
-<img src="src/assets/home.jpg" alt="Description" />
-
+##
+- Home page <br />
+![Home page](https://github.com/irshad1601/Signup-Login-System/blob/main/Frontend/src/assets/home.JPG)
