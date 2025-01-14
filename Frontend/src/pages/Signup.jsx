@@ -34,7 +34,8 @@ function Signup(){
             return handleError("All field is required")
         }
         try {
-            const url = `http://localhost:5000/auth/signup`;
+            // const url = `http://localhost:5000/auth/signup`;
+            const url = `https://signup-login-system-seven.vercel.app/auth/signup`;
             const response = await fetch(url,{
                 headers:{
                     'Content-type':'application/json'
