@@ -12,7 +12,14 @@ PORT = process.env.PORT || 8080
 connectDB();
 
 app.use(bodyParser.json());
-app.use(cors( {origin: "https://signup-login-system-op3h.vercel.app"}));
+app.use(
+  cors({
+    origin: "https://signup-login-system-op3h.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    credentials: true,
+  })
+);
 
 app.use("/auth",AuthRouter)
 app.use("/products",ProductRouter)
