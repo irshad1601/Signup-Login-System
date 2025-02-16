@@ -17,7 +17,7 @@ function Home(){
     const fetchProducts = async () => {
         try {
             // const url = `http://localhost:5000/products`
-            const url = `https://signup-login-system-seven.vercel.app/products`
+            const url = `https://signup-login-system.onrender.com/products`
             const response = await fetch(url, {
                 method:"get",
                 headers:{
