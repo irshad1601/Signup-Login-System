@@ -35,7 +35,7 @@ function Signup(){
         }
         try {
             // const url = `http://localhost:5000/auth/signup`;
-            const url = `https://signup-login-system-seven.vercel.app/auth/signup`;
+            const url = `https://signup-login-system.onrender.com/auth/signup`;
             const response = await fetch(url,{
                 headers:{
                     'Content-type':'application/json'
